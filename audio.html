@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-audio" src="https://cdn.ampproject.org/v0/amp-audio-0.1.js"></script>
     <title>Hello, AMPs</title>
     <link rel="canonical" href="http://example.ampproject.org/article-metadata.html" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -19,42 +19,8 @@
       }
     </script>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-    <style amp-custom>
-        section[expanded] .show-more {
-            display: none;
-        }
-        section:not([expanded]) .show-less {
-            display: none;
-        }
-        .nested-accordion h4 {
-            font-size: 14px;
-            background-color: #ddd;
-        }
-    </style>
 </head>
 <body>
-<amp-accordion>
-    <section expanded>
-        <h4>Section 1</h4>
-        <p>Bunch of awesome content.</p>
-    </section>
-    <section>
-        <h4>Section 2</h4>
-        <div>Bunch of even more awesome content. This time in a
-            <code>&lt;div&gt;</code>.</div>
-    </section>
-    <section>
-        <h4>Section 3</h4>
-        <figure>
-            <amp-img src="http://www.bravurabaritones.com/wp-content/uploads/2015/07/Big-Water.jpg"
-                     width="1080"
-                     height="610"
-                     layout="responsive"
-                     alt="an image"></amp-img>
-            <figcaption>Images work as well.</figcaption>
-        </figure>
-    </section>
-</amp-accordion>
+<amp-audio width="auto" src="https://0.s3.envato.com/files/213019650/preview.mp3"></amp-audio>
 </body>
 </html>
